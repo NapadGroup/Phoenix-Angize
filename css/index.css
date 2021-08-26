@@ -1,0 +1,39 @@
+/* Fonts */
+
+@import url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css');
+
+/* Desktop Center Block */
+
+@media screen and (min-width: 856px) {
+    .on-pc {
+        background-color: #dfe6b1c2;
+        width: 70%;
+        margin: auto;
+        margin-top: 2%;
+        border: 3px solid #CCD5AE;
+        border-radius: 15px;
+    }
+}
+
+/* Color Pallete and More */
+
+* {
+    font-family: "Vazir", arial, Tahoma;
+    box-sizing: border-box;
+}
+
+h3 {
+    text-shadow: 1px 1px 1px #fff;
+}
+
+body {
+    background-color: #E9EDC9;
+}
+
+.on-pc {
+    padding: 0.5%; 
+}
+
+.nav-tabs > .nav-item > .active {
+    background-color: #FEFAE0;
+}

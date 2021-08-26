@@ -37,3 +37,18 @@ body {
 .nav-tabs > .nav-item > .active {
     background-color: #FEFAE0;
 }
+
+.github {
+    display: flow-root;
+    position: absolute;
+    background-color: honeydew;
+    margin: 1%;
+    bottom: 0%;
+    left: 0%;
+    box-shadow: 2px 2px 4px grey;
+}
+
+.github:hover {
+    box-shadow: none;
+    scale: 1.05;
+}

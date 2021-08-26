@@ -13,6 +13,12 @@
         border: 3px solid #CCD5AE;
         border-radius: 15px;
     }
+    .github {
+        margin: 1%;
+        bottom: 0%;
+        left: 0%;
+        box-shadow: 2px 2px 4px grey;
+    }
 }
 
 /* Color Pallete and More */
@@ -39,13 +45,9 @@ body {
 }
 
 .github {
-    display: flow-root;
-    position: absolute;
+    display: static;
+    position: fixed;
     background-color: honeydew;
-    margin: 1%;
-    bottom: 0%;
-    left: 0%;
-    box-shadow: 2px 2px 4px grey;
 }
 
 .github:hover {
@@ -53,9 +55,12 @@ body {
     scale: 1.05;
 }
 
-.megawp-audio-podcasts-item{
-
-    margin: 20px;
+@media screen and (max-width: 856px) {
+    .github {
+        bottom: 0%;
+        width: 100%;
+        text-align: center;
+        box-shadow: 10px 1px 5px grey;
+    }
 
 }
-

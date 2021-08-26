@@ -1,16 +1,3 @@
-/* Global Reset */
-* {
-  font-family: "Allerta", arial, Tahoma;
-  box-sizing: border-box;
-}
-body {
-  /* background: linear-gradient(to left, #7700aa, #8800ff);
-  text-align: center; */
-  /* color: #fff; */
-}
-h3 {
-  text-shadow: 1px 1px 1px #fff;
-}
 /* Start  styling the page */
 .container-audio {
   width: 100%;
@@ -18,12 +5,13 @@ h3 {
   padding: 20px;
   border-radius: 5px;
   /* background-color: #eee; */
-  color: #444;
+  /* color: #444; */
   /* margin: 20px auto; */
   overflow: hidden;
 }
 audio {
   width: 100%;
+  box-shadow: 1px 2px 3px gray;
 }
 audio:nth-child(2),
 audio:nth-child(4),
@@ -45,7 +33,7 @@ audio:nth-child(6) {
   width: 100%;
   height: 100%;
   border-radius: 5px;
-  background: linear-gradient(to up, #7700aa, #8800ff);
+  background: linear-gradient(to up, #D4A373, #8800ff);
   position: absolute;
   -webkit-animation: Rofa 10s infinite ease-in-out;
   animation: Rofa 10s infinite ease-in-out;

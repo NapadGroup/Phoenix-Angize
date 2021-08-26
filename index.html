@@ -12,6 +12,14 @@
       integrity="sha384-XfhC/Sid4FIGSXYebcOtcSCRFkd/zZzAMVipf0bNWucloRvcKK2/dpVWodQbQ1Ek" crossorigin="anonymous">
 
 
+
+  <!-- Custom styles for this template -->
+  <link href="https://www.musetemplatespro.com/preview/codecan/musicplaylistjs/css/3-col-portfolio.css" rel="stylesheet">
+  <link href="https://www.musetemplatespro.com/preview/codecan/musicplaylistjs/css/scrolling-nav.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+  <link rel="stylesheet"
+    href="https://www.musetemplatespro.com/preview/codecan/musicplaylistjs/css/musicPlaylist.min.css">
+
     <!-- Audio player Rofa-->
     <link rel="stylesheet" href="css/audio-player.css">
 
@@ -68,10 +76,35 @@
       
 
         <div class="container-audio">
-          <audio controls loop autoplay>
-            <source src="https://honarejang.com/wp-content/uploads/2021/04/سال-جدید.-شروع-جدید.mp3" type="audio/mp3">
-            Your browser dose not Support the audio Tag
-          </audio>
+         
+          
+            <center>
+              <ul id="playlist">
+                <li track="https://www.digitalbam.ir/rp/getFile/98936387857C8563BBB9113695AC20A5" cover="https://b2n.ir/m10952"
+                  title="پادکست انگیزشی 16(سال جدید،شروع جدید)"></li>
+            
+            
+                <li track="https://www.digitalbam.ir/rp/getFile/F1EC87D4C921A867CA55C9585D94201C" cover="https://b2n.ir/q19606"
+                  title="پادکست سختکوشی"></li>
+            
+            
+                <li track="https://www.digitalbam.ir/rp/getFile/BC106EB9AB660201437D3FEB5B9500DC" cover="https://b2n.ir/e50618"
+                  title="ترس لعنتی رو نابود کن"></li>
+            
+            
+                <li track="https://www.digitalbam.ir/rp/getFile/8F791006D6FD344801B319651AA22B5B" cover="https://b2n.ir/a28980"
+                  title="پادکست انگیزشی صبح"></li>
+            
+            
+                <li track="https://www.digitalbam.ir/rp/getFile/5542D637CE65E4BEAD6FB9A5B6317500" cover="https://b2n.ir/a82261"
+                  title="پادکست موفقیت برای دیونه ها است"></li>
+            
+            
+              </ul>
+            </center>
+
+
+
         </div>
         <div class="text-center container-audio">
           <div class="colum1">
@@ -437,6 +470,43 @@
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
   
+
+          <!-- Plugin JavaScript -->
+          <script
+            src="https://www.musetemplatespro.com/preview/codecan/musicplaylistjs/vendor/jquery-easing/jquery.easing.min.js"></script>
+          
+          <script src="https://www.musetemplatespro.com/preview/codecan/musicplaylistjs/js/scrolling-nav.js"></script>
+          <script src="https://www.musetemplatespro.com/preview/codecan/musicplaylistjs/js/musicPlaylist.min.js"></script>
+          
+          <script>
+            $('#playlist').musicPlaylist({
+
+              //Main Options
+              playerWidth: '40%', // Player width. Set it in percents (%) to make it responsive or in pixels (px) to make it fixed width
+              playerColor: '#000', // Player background color
+              playerOpacity: '0.8', // Player and playlist background opacity: 0.1 - 1
+              iconColor: '#fff', // Player icons color
+              slidersBackgroundColor: '#333333', // Time and volume sliders background color
+              slidersValueColor: '#FF0000', // Time and volume sliders active color
+              playerSize: 'big', // Tracks artwork size: big, small
+              titleSize: '15px', // Tracks title size
+              titleColor: '#fff', // Tracks title color
+              titleFontFamily: 'arial', // Tracks title font
+              startingVolume: '100', // Initial player volume: 0 - 100
+
+              //Playlist Options  
+              showPlayList: 'show', // Show playlist initially: show, hide
+              trackImageSize: '40px', // Tracks artwork size in the playlist
+              trackTextColor: '#fff', // Tracks title color in the playlist
+              trackTextSize: '14px', // Tracks title size in the playlist
+              trackFontFamily: 'arial', // Tracks title font in the playlist
+              playlistColor: '#4c4c4c', // Playlist background color
+              activeTrackBackground: '#525252', // Active track in the playlist color
+              activeTrackTextColor: '#fff', // Active track title color in the playlist
+              separatorColor: '#000', // Tracks separator color
+            });
+          </script>
+
   </div>
   
   <div class="github">

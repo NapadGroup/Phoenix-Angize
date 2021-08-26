@@ -1,8 +1,8 @@
 # angizeshi
 
 ### TODO list  
-- [ ] Upload pot cast to repo 
-- [ ] Create template 
+- [x] Upload pot cast to repo 
+- [x] Create template 
 
 
 [Web Site](https://mdpe-ir.github.io/angizeshi/)

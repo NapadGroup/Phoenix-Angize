@@ -2,7 +2,7 @@
 
 ![logo](logo.png)
 
-### [Web Site](https://mdpe-ir.github.io/angizeshi/)
+### [Web Site](https://phonix-angize.pages.dev/)
 
 ققنوس انگیزه، مجموعه ای از پادکست های انگیزشی ،موفقیت و رشد فردی...
 

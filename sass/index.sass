@@ -1,0 +1,28 @@
+@import "../../Gass/main"
+
+.menu
+    +flex(25%, 25%, 25%, 25%)
+    text-align: center
+    border: transparent solid 0.5px
+    border-bottom: #dee2e6 solid 0.5px
+    color: $blue-600
+
+    %borderclick
+        border: #FEFAE0 solid 0.5px
+        border-bottom-color: #dee2e6
+        border-top-left-radius: 5px
+        border-top-right-radius: 5px
+    div:hover
+        @extend %borderclick
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out
+        color: $blue-800
+    .active
+        @extend %borderclick
+        background: #faf6db
+        border-bottom-color: #fffdee
+        color: black
+        &:hover
+            color: $grey-700
+    div
+        a
+            text-decoration: none

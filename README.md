@@ -18,10 +18,8 @@
 
 ---
 
-توسعه داده شده با ❤️ توسط  [Mdpe](https://github.com/mdpe-ir) و [مشارکت کنندگان](https://github.com/mdpe-ir/angizeshi/graphs/contributors). 1400 © 
+توسعه داده شده با ❤️ توسط  [GGroup](https://github.com/GodratGroup), تابستان 1400 © 
   
-با تشکر از [Gnkalk](https://github.com/Gnkalk)
-
   
 ----- 
   

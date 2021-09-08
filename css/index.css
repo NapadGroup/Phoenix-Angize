@@ -48,7 +48,13 @@ body {
 .github {
     display: static;
     position: fixed;
-    background-color: honeydew;
+    background-color: #faf6db;
+    padding: 7px;
+    padding-right: 10px;
+    padding-right: 10px;
+}
+.github a {
+    text-decoration: none;
 }
 
 .github:hover {

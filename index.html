@@ -1,8 +1,6 @@
 <!doctype html>
 <html lang="per">
-
 <head>
-
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -11,189 +9,446 @@
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/index.css">
+    <!-- GodUi CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/godratmand-ui@1.0.1/build/core/core.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/godratmand-ui@1.0.1/build/elements/tabs.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/godratmand-ui@1.0.1/build/utilities/utilities.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/godratmand-ui@1.0.1/build/form/form.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/godratmand-ui@1.0.1/build/layout/shaft.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/godratmand-ui@1.0.1/build/layout/contents.min.css">
 
-    <!-- Gass CSS -->
-    <link rel="stylesheet" href="sass/dist/index.css">
+    <!-- Custom CSS -->
+    <style>
+        @import url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css');
+
+        * {
+            font-family: "Vazir", arial, Tahoma;
+            box-sizing: border-box;
+        }
+
+        :root{
+            --primary-color: #8d9470;
+            --bg-primary-color: #e9ecca;
+            --bg-secondary-color: #e4e7bd;
+        }
+        
+        tabs[theme=toggle] tab:first-child{border-radius:0;border-top-right-radius:5px;border-bottom-right-radius:5px;}
+        tabs[theme=toggle] tab:last-child{border-radius:0;border-top-left-radius:5px;border-bottom-left-radius:5px;}
+
+        contents{padding: 2rem 3rem;}
+
+        .github{bottom: .5rem;right: .5rem;padding: 1rem;z-index: 9999;}
+    </style>
+
+    <!-- Github Button -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 
     <!-- Site Info -->
     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
     <meta name="description" content="ققنوس انگیزه ،مجموعه ای از پادکست های انگیزشی و.. ">
     <title>ققنوس انگیزه</title>
-
-
+    
 </head>
+<body theme="phonix" dir="auto">
+    <header><center>
+        <br><img src="logo.png" alt="Logo" height="150px"><h4 style="-webkit-text-stroke:thin;">ققنوس انگیزه</h4>
+    </center></header>
+    <shaft>
+        <tabs theme="toggle" full switch default="1">
+            <tab>انگیزشی</tab>
+            <tab>موفقیت</tab>
+            <tab>رشد فردی</tab>
+            <tab>درباره</tab>
+        </tabs>
+        <contents>
+            <content w-100>
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست انگیزشی 16(سال جدید،شروع جدید)</span>
+                    <audio
+                            style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/98936387857C8563BBB9113695AC20A5">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست سختکوشی</span>
+                    <audio
+                            style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/F1EC87D4C921A867CA55C9585D94201C">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> ترس لعنتی رو نابود کن</span>
+                    <audio
+                            style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/BC106EB9AB660201437D3FEB5B9500DC">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست انگیزشی صبح</span>
+                    <audio
+                            style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/8F791006D6FD344801B319651AA22B5B">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست موفقیت برای دیونه ها است</span>
+                    <audio
+                            style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/5542D637CE65E4BEAD6FB9A5B6317500">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست ادامه بده</span>
+                    <audio
+                            style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/D11B04EB55F4F0FACEBA3495F19F88B9">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i
+                            class="fa fa-microphone-alt"></i> پادکست شکست را شکست میدهم</span>
+                    <audio
+                            style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/1132EA370350B149BD0D8B2240A83D30">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست تسلیم نشو</span>
+                    <audio
+                            style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/AF9F1B64E0DD5404E4621558C2C79009">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست انگیزشی کودتا</span>
+                    <audio
+                            style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/3419BAA6D90F3E794F1BC20097E59003">
+                    </audio>
+                </div>
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i
+                            class="fa fa-microphone-alt"></i> پادکست راه برای حال خوب</span>
+                    <audio
+                            style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/79D126D7BF63E01862FFD47678D2BF14">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست انگیزشی 13 (ذهن جنگجو)</span>
+                    <audio
+                            style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/5E428CF56EEF37CA3B469D292861AF9D">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i
+                            class="fa fa-microphone-alt"></i> جان سخت (پادکست انگیزشی 12)</span>
+                    <audio
+                            style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/3BC1166B5C408BC7EA65E350D294B1D9">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست شجاعت</span>
+                    <audio
+                            style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/1769941050A2D1C455EC4855B5D9964E">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i
+                            class="fa fa-microphone-alt"></i> مبارزه تا آخرین نفس قسمت 1</span>
+                    <audio
+                            style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/3A4953E9D57BCA064FFAFFF84DC974AB">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i
+                            class="fa fa-microphone-alt"></i> مبارزه تا آخرین نفس قسمت 2</span>
+                    <audio
+                            style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/F658A33B5C7C872CD4BF665527B91C18">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i
+                            class="fa fa-microphone-alt"></i> مبارزه تا آخرین نفس قسمت 3</span>
+                    <audio
+                            style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/2B5D6078FD1D5887297A26A9968EF8AC">
+                    </audio>
+                </div>
+            </content>
+            <content w-100>
+                <div class="megawp-audio-podcasts-item">
+                <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست مدیریت زمان</span>
+                <audio
+                        style="width: 100%;" controls="">
+                    <source src="https://www.digitalbam.ir/rp/getFile/F9DF90D2FDE6A6C002522CFDDEE95B9A">
+                </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i
+                            class="fa fa-microphone-alt"></i> پادکست قدم های اول پیشرفت</span>
+                    <audio style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/9874D56A27B6AEF819065317BBC45226">
+                    </audio>
+                </div>
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست تخت خوابت رو مرتب کن</span>
+                    <audio style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/877514C313150F812AC8B6EF98CB2B75">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست تخت خوابت رو مرتب کن قسمت
+                دوم</span>
+                    <audio style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/D3CDDAA9151632D954639033C851B6E0">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست رسیدن به هدف در هفت
+                مرحله</span>
+                    <audio style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/D3DC26083D7C8FB5E9EBD734CBDC1188">
+                    </audio>
+                </div>
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i
+                            class="fa fa-microphone-alt"></i> پادکست چطور تنبل نباشیم</span>
+                    <audio style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/7CCF79FBF64C2943ACEFDDA23142493F">
+                    </audio>
+                </div>
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> دانلود پادکست موفقیت</span>
+                    <audio
+                            style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/39A529801534750C0689BE04FEBFE185">
+                    </audio>
+                </div>
+            </content>
+            <content w-100>
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i
+                            class="fa fa-microphone-alt"></i> پادکست صوتی اسکناس دو دلاری</span>
+                    <audio style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/AA10884EFA18EF7F807F327CAAF3E4BA">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست داستان مادر زرافه</span>
+                    <audio
+                            style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/59E10EC3A4A5500030D605A869E4F1D1">
+                    </audio>
+                </div>
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست سعدی شیرازی و دعا</span>
+                    <audio
+                            style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/6DB528F04C5C7C6306B9E726F1FDCCA6">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست مدیریت زمان</span>
+                    <audio
+                            style="width: 100%;" controls="">
+                        <source src="https://www.digitalbam.ir/rp/getFile/F9DF90D2FDE6A6C002522CFDDEE95B9A">
+                    </audio>
+                </div>
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i
+                            class="fa fa-microphone-alt"></i> پادکست داستان صوتی شاه وونگ</span>
+                    <audio style="width: 100%;" controls="">
+                        <source src="https://honarejang.com/wp-content/uploads/2020/02/شاه-وونگ.mp3">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست داستان کوتاه ارتش ژاندارک و پسر
+                بچه(داستان های صبح جمعه)</span>
+                    <audio style="width: 100%;" controls="">
+                        <source src="https://honarejang.com/wp-content/uploads/2019/12/ژاندارک-و-پسر-بپه.mp3">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i
+                            class="fa fa-microphone-alt"></i> پادکست قصه صوتی استاد و شاگرد</span>
+                    <audio style="width: 100%;" controls="">
+                        <source src="https://honarejang.com/wp-content/uploads/2019/12/استاد-و-شاگرد320.mp3">
+                    </audio>
+                </div>
+            
+                <div class="megawp-audio-podcasts-item">
+                    <span class="audio-podcasts-title"><i
+                            class="fa fa-microphone-alt"></i> پادکست داستان کوتاه دختر بچه</span>
+                    <audio style="width: 100%;" controls="">
+                        <source src="https://honarejang.com/wp-content/uploads/2020/02/داستا-دختر-بچه-320.mp3">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست قصه کوتاه و صوتی مرد بومی
+                (داستانی
+                بسیار زیبا)</span>
+                    <audio style="width: 100%;" controls="">
+                        <source src="https://honarejang.com/wp-content/uploads/2020/02/مرد-بومی320.mp3">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست رسیدن به هدف در هفت
+                مرحله</span>
+                    <audio style="width: 100%;" controls="">
+                        <source src="https://honarejang.com/wp-content/uploads/2020/02/goal7_mixdown.mp3">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست داستان جالب و آموزنده کلاه
+                فروش</span>
+                    <audio style="width: 100%;" controls="">
+                        <source src="https://honarejang.com/wp-content/uploads/2020/01/کلافروش320.mp3">
+                    </audio>
+                </div>
+            
+                <div class="megawp-audio-podcasts-item">
+                <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست داستان کوتاه و صوتی مرد
+                ثروتمند</span>
+                    <audio style="width: 100%;" controls="">
+                        <source src="https://honarejang.com/wp-content/uploads/2019/12/مرد-ثروتمند320.mp3">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست چطور یک صبح پرانرژی داشته
+                باشیم</span>
+                    <audio style="width: 100%;" controls="">
+                        <source src="https://honarejang.com/wp-content/uploads/2019/07/صبح-پرانرژی.mp3">
+                    </audio>
+                </div>
+            
+                <div class="megawp-audio-podcasts-item">
+                <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست چطور یک صبح پرانرژی داشته
+                باشیم</span>
+                    <audio style="width: 100%;" controls="">
+                        <source src="https://honarejang.com/wp-content/uploads/2019/07/صبح-پرانرژی.mp3">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست چطور شجاع باشیم؟ چطور شجاع
+                بشیم؟</span>
+                    <audio style="width: 100%;" controls="">
+                        <source src="https://honarejang.com/wp-content/uploads/2019/11/shojaat_site.honarejang.com_.mp3">
+                    </audio>
+                </div>
+            
+            
+                <div class="megawp-audio-podcasts-item">
+                <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست 3 قانون کوتاه و جالب برای
+                افزایش
+                اعتماد به نفس</span>
+                    <audio style="width: 100%;" controls="">
+                        <source src="https://honarejang.com/wp-content/uploads/2018/12/etemadbnafs.mp3">
+                    </audio>
+                </div>
+            </content>
+            <content markdown w-100>
 
-<body dir="auto">
-  <header><center>
-    <br><img src="logo.png" alt="Logo" height="100px"><h2>ققنوس انگیزه</h2>
-  </center></header>
-<div class="on-pc">
-    <div class="menu">
-        <div class="active">انگیزشی</div>
-        <div><a href="./موفقیت/">موفقیت</a></div>
-        <div><a href="./رشد-فردی/">رشد فردی</a></div>
-        <div><a href="./درباره/">درباره</a></div>
+### [Github](https://github.com/GodratGroup/Phoenix-Angize)
+
+ققنوس انگیزه، مجموعه ای از پادکست های انگیزشی ،موفقیت و رشد فردی...
+
+<h5> مشارکت 🤝 </h5>
+
+
+این پروژه تحت پروانه GPL نسخه 3 منتشر و نگه‌داری می‌شود و از این‌جهت، هرکسی می‌تواند در صورت نیاز اقدام به مشارکت برای اصلاح یا بهبود یا حتی اضافه کردن ویژگی های جدید به این پروژه کند، همچنین ایجاد فورک های مختلف از پروژه و توسعه پروژه در شاخه‌ای جدا، چه به‌صورت رایگان و چه به‌صورت تجاری، هیچگونه مانعی ندارد.
+
+---
+
+توسعه داده شده با ❤️ توسط  [GGroup](https://github.com/GodratGroup), تابستان 1400 © 
+    
+    
+---
+    
+    
+
+**تذکر** : پادکست ها از سایت های مختلفی مانند سایت  [هنر جنگ](https://honarejang.com/) جمع اوری شده اند و تمام پادکست ها رایگان میباشند و تا جای ممکن حقوق ناشر رعایت شده است . درصورت درخواست ناشر پادکست های مربوطه حذف خواهند شد
+
+            </content>
+        </contents>
+    </shaft>
+    <div class="github position-fixed" dir="ltr">
+        <a class="github-button" href="https://github.com/godratgroup/phoenix-angize" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star godratgroup/phoenix-angize on GitHub">Star</a>
     </div>
-    <div class="megawp-audio-podcasts-item">
-        <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست انگیزشی 16(سال جدید،شروع جدید)</span>
-        <audio
-                style="width: 100%;" controls="">
-            <source src="https://www.digitalbam.ir/rp/getFile/98936387857C8563BBB9113695AC20A5">
-        </audio>
-    </div>
-
-
-    <div class="megawp-audio-podcasts-item">
-        <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست سختکوشی</span>
-        <audio
-                style="width: 100%;" controls="">
-            <source src="https://www.digitalbam.ir/rp/getFile/F1EC87D4C921A867CA55C9585D94201C">
-        </audio>
-    </div>
-
-
-    <div class="megawp-audio-podcasts-item">
-        <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> ترس لعنتی رو نابود کن</span>
-        <audio
-                style="width: 100%;" controls="">
-            <source src="https://www.digitalbam.ir/rp/getFile/BC106EB9AB660201437D3FEB5B9500DC">
-        </audio>
-    </div>
-
-
-    <div class="megawp-audio-podcasts-item">
-        <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست انگیزشی صبح</span>
-        <audio
-                style="width: 100%;" controls="">
-            <source src="https://www.digitalbam.ir/rp/getFile/8F791006D6FD344801B319651AA22B5B">
-        </audio>
-    </div>
-
-
-    <div class="megawp-audio-podcasts-item">
-        <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست موفقیت برای دیونه ها است</span>
-        <audio
-                style="width: 100%;" controls="">
-            <source src="https://www.digitalbam.ir/rp/getFile/5542D637CE65E4BEAD6FB9A5B6317500">
-        </audio>
-    </div>
-
-
-    <div class="megawp-audio-podcasts-item">
-        <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست ادامه بده</span>
-        <audio
-                style="width: 100%;" controls="">
-            <source src="https://www.digitalbam.ir/rp/getFile/D11B04EB55F4F0FACEBA3495F19F88B9">
-        </audio>
-    </div>
-
-
-    <div class="megawp-audio-podcasts-item">
-        <span class="audio-podcasts-title"><i
-                class="fa fa-microphone-alt"></i> پادکست شکست را شکست میدهم</span>
-        <audio
-                style="width: 100%;" controls="">
-            <source src="https://www.digitalbam.ir/rp/getFile/1132EA370350B149BD0D8B2240A83D30">
-        </audio>
-    </div>
-
-
-    <div class="megawp-audio-podcasts-item">
-        <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست تسلیم نشو</span>
-        <audio
-                style="width: 100%;" controls="">
-            <source src="https://www.digitalbam.ir/rp/getFile/AF9F1B64E0DD5404E4621558C2C79009">
-        </audio>
-    </div>
-
-
-    <div class="megawp-audio-podcasts-item">
-        <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست انگیزشی کودتا</span>
-        <audio
-                style="width: 100%;" controls="">
-            <source src="https://www.digitalbam.ir/rp/getFile/3419BAA6D90F3E794F1BC20097E59003">
-        </audio>
-    </div>
-
-    <div class="megawp-audio-podcasts-item">
-        <span class="audio-podcasts-title"><i
-                class="fa fa-microphone-alt"></i> پادکست راه برای حال خوب</span>
-        <audio
-                style="width: 100%;" controls="">
-            <source src="https://www.digitalbam.ir/rp/getFile/79D126D7BF63E01862FFD47678D2BF14">
-        </audio>
-    </div>
-
-
-    <div class="megawp-audio-podcasts-item">
-        <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست انگیزشی 13 (ذهن جنگجو)</span>
-        <audio
-                style="width: 100%;" controls="">
-            <source src="https://www.digitalbam.ir/rp/getFile/5E428CF56EEF37CA3B469D292861AF9D">
-        </audio>
-    </div>
-
-
-    <div class="megawp-audio-podcasts-item">
-        <span class="audio-podcasts-title"><i
-                class="fa fa-microphone-alt"></i> جان سخت (پادکست انگیزشی 12)</span>
-        <audio
-                style="width: 100%;" controls="">
-            <source src="https://www.digitalbam.ir/rp/getFile/3BC1166B5C408BC7EA65E350D294B1D9">
-        </audio>
-    </div>
-
-
-    <div class="megawp-audio-podcasts-item">
-        <span class="audio-podcasts-title"><i class="fa fa-microphone-alt"></i> پادکست شجاعت</span>
-        <audio
-                style="width: 100%;" controls="">
-            <source src="https://www.digitalbam.ir/rp/getFile/1769941050A2D1C455EC4855B5D9964E">
-        </audio>
-    </div>
-
-
-    <div class="megawp-audio-podcasts-item">
-        <span class="audio-podcasts-title"><i
-                class="fa fa-microphone-alt"></i> مبارزه تا آخرین نفس قسمت 1</span>
-        <audio
-                style="width: 100%;" controls="">
-            <source src="https://www.digitalbam.ir/rp/getFile/3A4953E9D57BCA064FFAFFF84DC974AB">
-        </audio>
-    </div>
-
-
-    <div class="megawp-audio-podcasts-item">
-        <span class="audio-podcasts-title"><i
-                class="fa fa-microphone-alt"></i> مبارزه تا آخرین نفس قسمت 2</span>
-        <audio
-                style="width: 100%;" controls="">
-            <source src="https://www.digitalbam.ir/rp/getFile/F658A33B5C7C872CD4BF665527B91C18">
-        </audio>
-    </div>
-
-
-    <div class="megawp-audio-podcasts-item">
-        <span class="audio-podcasts-title"><i
-                class="fa fa-microphone-alt"></i> مبارزه تا آخرین نفس قسمت 3</span>
-        <audio
-                style="width: 100%;" controls="">
-            <source src="https://www.digitalbam.ir/rp/getFile/2B5D6078FD1D5887297A26A9968EF8AC">
-        </audio>
-    </div>
-    <div class="github">
-    <a class="btn" href="https://github.com/GodratGroup/phonix-angize" target="_blank"
-        onclick="return getOutboundLink(&quot;https://github.com/GodratGroup/phonix-angize&quot;),!0" rel="noopener"
-        aria-label="Star Phonix-angize on GitHub"><svg height="16" viewBox="0 0 16 16" width="16"
-        aria-hidden="true" class="octicon octicon-star">
-        <path
-            d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"
-            fill-rule="evenodd"></path>
-        </svg> <span>Star on GitHub</span></a>
-    </div>
-</div>
-<p align="center">GGroup DT &copy;</p>
+    <p align="center">GGroup DT &copy;</p>
+    <config
+    Utilities='false'
+    Systems='"Flex": false, "Grid": false, "Shaft": true, "Switch": true, "SmartDark": false, "ReadMD": true'
+    FormUse='true'
+    dist='dist'
+    download='false'
+    ></config>
+    <script src="https://unpkg.com/godratmand-ui@1.0.1/build/js/Config.min.js"></script>
+    <script src="https://unpkg.com/godratmand-ui@latest/build/js/Switch.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.0/showdown.min.js"></script>
+    <script src="https://unpkg.com/godratmand-ui@latest/build/js/ReadMD.min.js"></script>
 </body>
 </html>

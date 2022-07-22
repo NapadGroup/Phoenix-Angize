@@ -1,0 +1,21 @@
+body[theme=phonix] {
+    padding: 10px;
+}
+
+@media screen and (min-width: 765px) {
+    body[theme=phonix] {
+        background-color: var(--bg-color);
+    }
+
+    body[theme=phonix] shaft {
+        display: block;
+        background-color: var(--bg-color2);
+        width: 70%;
+        margin: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        border: 2.5px solid var(--color);
+        border-radius: 15px;
+        padding: 15px;
+    }
+}
